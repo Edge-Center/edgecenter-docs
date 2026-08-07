@@ -20,7 +20,7 @@ edgecenter = {
 }
 ```
 
-The provider is pre-1.0. Minor bumps can change resource behaviour, so read the
+The provider is pre-1.0. Minor bumps can change resource behavior, so read the
 release notes before moving from `0.13` to `0.14`.
 
 ## SDK versions inside a provider release

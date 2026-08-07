@@ -15,7 +15,7 @@ monitoring.
 
 - Module: `github.com/Edge-Center/terraform-provider-edgecenter`
 - Published as [`Edge-Center/edgecenter`](https://registry.terraform.io/providers/Edge-Center/edgecenter/latest) in the Terraform Registry
-- Licence MPL-2.0, default branch `master`
+- License MPL-2.0, default branch `master`
 - Actively developed
 
 It imports every SDK below, which makes it the integration point of the whole
@@ -25,7 +25,7 @@ space. `edgecenter/config.go` is where the clients are built.
 
 Standalone modules, one per service. The import path is the repository path.
 
-| Module | Covers | Licence | Branch | Activity |
+| Module | Covers | License | Branch | Activity |
 | :--- | :--- | :--- | :--- | :--- |
 | [edgecentercloud-go](https://github.com/Edge-Center/edgecentercloud-go) `/v2` | Instances, networks, volumes, load balancers, Kubernetes, DBaaS, reseller | MPL-2.0 | `master` | Active |
 | [edgecentercdn-go](https://github.com/Edge-Center/edgecentercdn-go) | CDN resources, origin groups, rules, certificates, ACME, shielding, statistics | - | `main` | Active |
@@ -95,6 +95,6 @@ path of a supported product. "Quiet" means the code works and is published, but 
 one is adding to it - open an issue before building something that depends on it
 changing.
 
-Licences differ per repository: MPL-2.0 for the provider and most SDKs, Apache-2.0
+Licenses differ per repository: MPL-2.0 for the provider and most SDKs, Apache-2.0
 for the DNS SDK and the plugins, MIT for the demos, and a few repositories carry
-no licence file yet. Check `LICENSE` in the repository before you vendor anything.
+no license file yet. Check `LICENSE` in the repository before you vendor anything.
