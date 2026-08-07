@@ -29,8 +29,8 @@ Semantic versioning, with the pre-1.0 caveat that applies to most of this space.
   `/v2` import path suffix. While a module is below 1.0, a minor bump is allowed
   to break the API - read the diff before bumping.
 - **The Terraform provider** is `v0.14.x`. Treat a minor bump as potentially
-  behaviour-changing for practitioners: resource schemas, defaults and diff
-  behaviour have all moved between minors.
+  behavior-changing for practitioners: resource schemas, defaults and diff
+  behavior have all moved between minors.
 - **Kubernetes components** follow their own lines: `edgecenter-csi` is at `v1.x`,
   `edgecenter-ccm` at `v2.x`.
 
@@ -57,7 +57,7 @@ Pushing a `v*` tag is the whole trigger. The release workflow then:
 1. Imports the GPG signing key from repository secrets.
 2. Runs GoReleaser, which cross-compiles the binaries, produces the checksum file
    and signs it. The Terraform Registry will not accept an unsigned release.
-3. Publishes the GitHub release with those artefacts.
+3. Publishes the GitHub release with those artifacts.
 4. Uploads the release to the S3 mirror used by customers who cannot reach the
    public registry.
 

@@ -116,7 +116,7 @@ func main() {
 
 `NewWithRetries` is the constructor to reach for by default: it retries on the
 transient failures the platform produces under load. `New` gives you a client
-without that behaviour when you want to own the retry policy.
+without that behavior when you want to own the retry policy.
 
 The client aggregates roughly thirty typed services as fields - `Instances`,
 `Networks`, `Loadbalancers`, `Volumes`, `MkaaS` and the rest. Each method returns
