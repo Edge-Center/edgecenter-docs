@@ -105,3 +105,8 @@ secret.
 
 Open a pull request. Every page is plain markdown and renders on GitHub, so there
 is no build step to run and nothing to preview locally beyond a markdown viewer.
+
+## License
+
+This project is licensed under the Apache License 2.0, see [LICENSE](LICENSE).
+Copyright (c) 2026 LLC "EDGECENTER"

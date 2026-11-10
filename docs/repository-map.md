@@ -28,9 +28,9 @@ Standalone modules, one per service. The import path is the repository path.
 | Module | Covers | License | Branch | Activity |
 | :--- | :--- | :--- | :--- | :--- |
 | [edgecentercloud-go](https://github.com/Edge-Center/edgecentercloud-go) `/v2` | Instances, networks, volumes, load balancers, Kubernetes, DBaaS, reseller | MPL-2.0 | `master` | Active |
-| [edgecentercdn-go](https://github.com/Edge-Center/edgecentercdn-go) | CDN resources, origin groups, rules, certificates, ACME, shielding, statistics | - | `main` | Active |
+| [edgecentercdn-go](https://github.com/Edge-Center/edgecentercdn-go) | CDN resources, origin groups, rules, certificates, ACME, shielding, statistics | Apache-2.0 | `main` | Active |
 | [edgecenterprotection-go](https://github.com/Edge-Center/edgecenterprotection-go) | DDoS Protection resources, aliases, certificates, black and white lists | MPL-2.0 | `master` | Active |
-| [edgecenteredgemon-go](https://github.com/Edge-Center/edgecenteredgemon-go) | RMON checks, check groups, notification channels, status pages | - | `main` | Active |
+| [edgecenteredgemon-go](https://github.com/Edge-Center/edgecenteredgemon-go) | RMON checks, check groups, notification channels, status pages | Apache-2.0 | `main` | Active |
 | [edgecenter-dns-sdk-go](https://github.com/Edge-Center/edgecenter-dns-sdk-go) | DNS zones, RRSets, secondary zones | Apache-2.0 | `main` | Stable, Go 1.19 |
 | [edgecenter-storage-sdk-go](https://github.com/Edge-Center/edgecenter-storage-sdk-go) | Object Storage buckets and credentials | MPL-2.0 | `main` | Stable, Go 1.19 |
 
